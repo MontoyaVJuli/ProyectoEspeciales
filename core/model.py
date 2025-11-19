@@ -71,7 +71,7 @@ class TumorModel:
         return C_in + (k1 + 2 * k2 + 2 * k3 + k4) / 6.0
 
     def step(self, t: float, treatment: TreatmentParameters):
-        #Avanza la simulación un paso de tiempo (dt)
+        #Avanza la simulación un paso de tiempo (dt).
 
         N = self.N
         r = self.r

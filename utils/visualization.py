@@ -3,7 +3,7 @@ import numpy as np
 
 
 def plot_tumor_grid(grid, day):
-    """grafica estado del tumor."""
+    #grafica estado del tumor.
     fig, ax = plt.subplots(figsize=(6, 6))
     im = ax.imshow(grid, cmap='magma', vmin=0, vmax=1)
     ax.set_title(f"Concentración Tumoral | Día {int(day)}", fontsize=14)

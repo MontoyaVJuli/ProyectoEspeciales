@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 
-
 @dataclass
 class ModelParameters:
     grid_size: int = 100  # rejilla (N x N)

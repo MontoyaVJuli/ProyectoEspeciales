@@ -98,7 +98,7 @@ with tab_results:
             days_between_cycles=treat_pause
         )
 
-        #Ejecuta simulación cache
+        #Ejecuta simulación cache.
         frames, history = run_cached_simulation(current_model_params, current_treatment_params, sim_days)
 
         #Guardar resultados en el estado de la sesión
